@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="fa/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header>
@@ -15,14 +17,14 @@
         </div>
     </header>
     <section class="about">
-        <div class="about_info">
+        <div class="about_info animate__animated animate__fadeInLeft">
             <h1>Солнечные панели GreenRobotic</h1>
             <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
-            <button>Узнать подробнее</button>
+            <button>Узнать подробнее <i class="fa-solid fa-angle-right"></i></button>
         </div>
-        <div class="about_images">
-            <img class="img_sun" src="img/sun.png">
-            <img class="img_solar-panel" src="img/solar-panel.png">
+        <div class="about_images animate__animated animate__fadeInRight">
+            <img class="about__img-sun" src="img/sun.png">
+            <img class="about__img-solar-panel" src="img/solar-panel.png">
         </div>
     </section>
     <section class="form">
@@ -85,5 +87,6 @@
         </div>
         <div class="footer__copyright">GreenCorp © 2021</div>
     </footer>
+    <script src="fa/js/all.min.js"></script>
 </body>
 </html>

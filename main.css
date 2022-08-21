@@ -81,11 +81,11 @@ button:hover{
     margin-top: 20px;
 }
 
-.img_solar-panel{
+.about__img-solar-panel{
     width: 500px;
 }
 
-.img_sun{
+.about__img-sun{
     width: 100px;
     height: 100px;
     animation: rotate 10s linear infinite;
@@ -255,6 +255,7 @@ select{
     }
  }
  
+ /* Планшеты */
  @media (max-width: 1024px) {
     .about {
         padding: 115px 20px;
@@ -265,16 +266,17 @@ select{
         line-height: 40px;
     }
   
-    .about__image {
+    .about__img-solar-panel {
         width: 280px;
     }
   
-    .about__sun-image {
+    .about__img-sun {
         width: 75px;
         height: 75px;
     }
  }
   
+ /* Мобильные устройства */
  @media (max-width: 720px) {
     header {
         padding: 10px;
@@ -298,11 +300,11 @@ select{
         line-height: 40px;
     }
   
-    .about__image {
+    .about__img-solar-panel {
         width: 280px;
     }
   
-    .about__sun-image {
+    .about__img-sun {
         width: 75px;
         height: 75px;
     }
@@ -323,3 +325,11 @@ select{
         flex-direction: column;
     }
  }
+
+ .animate__animated.animate__fadeInLeft{
+     animation-duration: 2s;
+ }
+
+ .animate__animated.animate__fadeInRight{
+    animation-duration: 2s;
+}
