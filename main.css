@@ -9,10 +9,18 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    position: sticky;
+    position: fixed;
     top: 0;
-    background-color: #fff;
+    left: 0;
+    right: 0;
+    background-color: inherit;
     z-index: 1;
+    transition:all 0.25s ease;
+}
+
+.header__scrolled{
+    background-color: #fff;
+    box-shadow: 0 12px 34px -11px rgb(65 62 101 / 10%);
 }
 
 a {
@@ -52,7 +60,7 @@ button:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 115px;
+    padding-top: 200px;
     padding-bottom: 115px;
     background: url("img/back.png") no-repeat;
     background-position: center;
@@ -62,8 +70,9 @@ button:hover{
 
 .orb-canvas{
     position: absolute;
+    top: 0;
     height: 100%;
-    width: 100%;
+    right: 0;
 }
 
 .about_info{
